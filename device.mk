@@ -142,7 +142,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.realme_sdm710
+    android.hardware.usb@1.0-service.basic
 
 # VNDK
 PRODUCT_COPY_FILES += \
