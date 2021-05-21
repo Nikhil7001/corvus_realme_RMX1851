@@ -21,6 +21,10 @@ TARGET_GAPPS_ARCH=arm64
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Corvus Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer= RealmeDiary
+
 # Inherit some common LOS stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
